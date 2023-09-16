@@ -1,46 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* navbar */
 
-.navbar{
-    padding: 12px 160px;
-    background:rgb(252, 252, 252);
-    
-   
-   
+.navbar {
+  padding: 12px 160px;
+  background: rgb(252, 252, 252);
 }
-.navbar-brand{
-    color:rgb(69, 67, 67);
-    font-size:38px;
-    font-weight:bold;
+.navbar-brand {
+  color: rgb(69, 67, 67);
+  font-size: 38px;
+  font-weight: bold;
 }
-.navbar-brand:hover{
-    color:rgb(69, 67, 67);
+.navbar-brand:hover {
+  color: rgb(69, 67, 67);
 }
-.nav-link{
-    font-size:19px;
-    color:rgb(69, 67, 67);
+.nav-link {
+  font-size: 19px;
+  color: rgb(69, 67, 67);
 }
-#nav-hover:hover{
-    color:rgb(96, 96, 221);
-    text-decoration: underline;
-    text-decoration-color:rgb(96, 96, 221); 
-    text-decoration-thickness: 2px;
-    text-underline-offset: 12px;
+#nav-hover:hover {
+  color: rgb(96, 96, 221);
+  text-decoration: underline;
+  text-decoration-color: rgb(96, 96, 221);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 12px;
 }
-#nav-home{
-    color:rgb(96, 96, 221);
-    text-decoration: underline;
-    text-decoration-color:rgb(96, 96, 221); 
-    text-decoration-thickness: 2px;
-    text-underline-offset: 12px;  
+#nav-home {
+  color: rgb(96, 96, 221);
+  text-decoration: underline;
+  text-decoration-color: rgb(96, 96, 221);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 12px;
 }
-#menu-button{
-   background-color: #1977cc;
-   color:white;
-   font-size:18px;
+#menu-button {
+  background-color: #1977cc;
+  color: white;
+  font-size: 18px;
+}
+
+/* home */
+
+#welcome {
+  padding: 130px 160px 0px 140px;
+}
+#welcome h1 {
+  font-size: 63px;
+  color: rgb(83, 80, 80);
+}
+#welcome span {
+  font-size: 31px;
+  color: rgb(83, 80, 80);
+}
+#welcome button {
+  background-color: #1977cc;
+  color: white;
+  font-size: 18px;
+  padding: 12px 47px;
+  margin-top: 30px;
+}
+/* choose */
+
+#Choose-padding {
+  padding: 130px 160px 0px 140px;
+}
+
+.card-body {
+  background: #1977cc;
+  color: white;
+  padding: 38px 39px 33px 38px;
+}
+#Choose h1 {
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+#Choose span {
+  font-size: 20px;
+}
+#Choose button {
+  background-color: #3c8fd7;
+  color: white;
+  font-size: 18px;
+  padding: 10px 38px;
+  margin-top: 30px;
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+#Choose button i {
+  font-size: 11px;
+  margin: 10px 10px;
+}
+#Choose button:hover {
+  background-color: white;
+  color: #3c8fd7;
+}
+
+/* three card */
+#three-card-padding {
+  margin: 100px 0px;
+}
+#three-card {
+  color: black;
+  background: white;
+  text-align: center;
+  box-shadow: 0px 0px 8px 8px #f8f6f2;
+}
+#three-card h3 {
+  margin: 35px 0px;
+}
+#three-card span {
+  font-size: larger;
+  color: gray;
+}
+
+/* video */
+#circle {
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+  outline: 2px solid blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.star-icon {
+  color: blue;
+}
+
+#circle:hover .star-icon {
+  color: white;
+}
+
+#circle:hover {
+  background: blue;
 }
