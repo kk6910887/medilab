@@ -144,3 +144,78 @@
   background: #1977cc;
   outline: none;
 }
+
+/* number of staff */
+.staff {
+  background: #f1f7fd;
+}
+
+.icon-center {
+  height: auto;
+  padding-bottom: 20px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.icon-border {
+  position: relative;
+  top: -20px;
+  left: 43.4%;
+  bottom: 0;
+  background: #1977cc;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counting {
+  margin-top: -15px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* services */
+
+.custom-hr {
+  width: 140px;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.hr-2 {
+  width: 47px;
+  height: 4px;
+  background-color: #1977cc;
+  position: relative;
+  left: 30%;
+  top: -1px;
+}
+.service-box {
+  border: 1px solid #dfe1e3;
+}
+.service-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background: #1977cc;
+  position: relative;
+  left: 44%;
+  box-shadow: -8px -8px 0px rgb(179, 207, 245);
+}
+
+.service-box:hover {
+  background: #f2f3f3;
+  color: white;
+}
+
+/* appointment */
+.appoint {
+  background: #f1f7fd;
+}
+.input-width {
+  width: 100%;
+  border: 1px solid #cfdce8;
+  outline: none;
+}
