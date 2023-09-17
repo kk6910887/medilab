@@ -219,3 +219,97 @@
   border: 1px solid #cfdce8;
   outline: none;
 }
+
+/* departments */
+
+/* Doctors */
+
+.doctor-box {
+  padding: 30px 20px 30px 230px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 5px rgb(242, 239, 239);
+}
+
+.doctor-hr {
+  width: 50px;
+  color: #1977cc;
+}
+.doctor-social-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #a0bcd5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+/* Asking question */
+
+.question {
+  background: #f1f7fd;
+}
+.accordion-button {
+  font-size: 17px;
+  font-weight: 600;
+}
+.accordion-header :hover {
+  color: #3371db;
+}
+
+/* contact */
+
+.contact-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #bdd8f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-icon:hover,
+.contact-icon i:hover {
+  background: #3371db;
+  color: white;
+}
+.contact-icon i {
+  color: #75a0ea;
+}
+
+.span-color {
+  color: rgb(183, 172, 172);
+  font-size: 16px;
+}
+.contact-input {
+  width: 100%;
+  border: 1px solid #b5bfc8;
+}
+
+/* header */
+.useful-link {
+  font-size: 20px;
+}
+.useful-link a {
+  text-decoration: none;
+  color: rgb(183, 172, 172);
+}
+.news-letter span {
+  font-size: 18px;
+}
+
+/* header 2 */
+
+.header-end {
+  background: #f1f7fd;
+}
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #1977cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
