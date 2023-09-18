@@ -340,19 +340,3 @@
   height: 100%;
   object-fit: cover;
 }
-
-/* cardiology */
-
-.nav {
-  border-right: 1px solid rgb(188, 210, 210);
-}
-.nav-item {
-  border-right: 2px solid rgb(69, 127, 234);
-}
-
-.details h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #2c4964;
-}
