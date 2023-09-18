@@ -287,6 +287,15 @@
   border: 1px solid #b5bfc8;
 }
 
+/* testmonial */
+.testimonial {
+  border: 1px solid rgb(142, 197, 236);
+  border-radius: 10px;
+}
+.testimonial span {
+  font-size: 16px;
+}
+
 /* header */
 .useful-link {
   font-size: 20px;
@@ -317,14 +326,7 @@
 .social-icon i {
   color: white;
 }
-/* testmonial */
-.testimonial {
-  border: 1px solid rgb(142, 197, 236);
-  border-radius: 10px;
-}
-.testimonial span {
-  font-size: 16px;
-}
+
 /* swipper */
 
 .swiper {
